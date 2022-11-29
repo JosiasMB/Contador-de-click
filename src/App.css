@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(25, 26, 26);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  border: solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.contador {
+  display: flex;
+  border: solid;
+  min-width: 250px;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4rem;
+  margin: 20px;
+  border-radius: 15px;
+  border-color: white;
+  color: white;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+}
+
+.reiniciar {
+  background-color: rgb(163, 14, 14);
+}
+
+button {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: rgb(6, 112, 33);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(87, 82, 82, 0.611);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: none;
+}
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+  padding: 0%;
+}
+h6 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+  padding: 0%;
+}
+
+span {
+  text-align: center;
+  font-family: cursive;
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  margin: 10px;
+}
